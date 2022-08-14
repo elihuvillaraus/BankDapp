@@ -227,7 +227,7 @@ function App() {
           {currentBankName === "" && isBankerOwner ? (
             <p>"Establece el nombre de tu Banco." </p>
           ) : (
-            <p className="text-3xl font-bold">{currentBankName}</p>
+            <p className="text-3xl font-black text-center">{currentBankName}</p>
           )}
         </div>
         <div className="flex flex-col sm:flex-row justify-around items-center my-10 space-y-10 sm:space-y-0">
@@ -263,7 +263,7 @@ function App() {
           </div>
         </div>
         <div className="mt-5 bg-slate-200/90 rounded-lg p-2">
-          <p>
+          <p className="text-violet-800 text-xl font-bold">
             <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-violet-800">
               Tu Balance en ETH:{" "}
             </span>
