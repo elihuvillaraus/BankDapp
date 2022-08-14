@@ -16,7 +16,7 @@ function App() {
   const [customerAddress, setCustomerAddress] = useState(null);
   const [error, setError] = useState(null);
 
-  const contractAddress = `${process.env.YOUR_CONTRACT_ADDRESS}`;
+  const contractAddress = `0xd0b16c4c28ed582815c1b596057149da3b7f0e7b`;
   const contractABI = abi.abi;
 
   const checkIfWalletIsConnected = async () => {
